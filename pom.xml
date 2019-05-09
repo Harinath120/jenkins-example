@@ -63,10 +63,11 @@
     </repositories>
 
     <distributionManagement>
-        <repository>
-            <id>myMavenRepo.write</id>
-            <url>http://localhost:8081/artifactory/libs-release-local</url>
-        </repository>
-    </distributionManagement>
+       <repository>
+          <id>central</id>
+          <name>Harinath-releases</name>
+          <url>http://localhost:8081/artifactory/libs-release-local</url>
+       </repository>
+</distributionManagement>
 
 </project>
